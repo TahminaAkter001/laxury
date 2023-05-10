@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Sintony:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 90px;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .inner-header{
+    max-width: 1200px;
+    height: 45px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .inner-header ul{
+    display: flex;
+    padding-top: 10px;
+}
+
+header .inner-header ul li{
+    list-style-type: none;
+    margin: 0 15px;
+}
+header .inner-header ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+header .inner-header ul button{
+    height: 47px;
+    max-width: 200px;
+    background-color: #fea100;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: -11px;
+    border: 1px solid #fff;
+    font-family: 'Sintony', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+header .inner-header ul button i{
+    margin-right: 7px;
+}
+
+/**************************************************banner*************/
+.banner-part{
+    height: 60vw;
+    width: 100vw;
+}
+
+.banner-part{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.banner-part .mywidth{
+    height: 290px;
+    width: 533px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin:35vh auto;
+}
+.banner-part .mywidth h1{
+    font-size:62px ;
+    font-weight:700 ;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+.banner-part .mywidth h3{
+    font-size:42px ;
+    font-weight:700 ;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    margin-top: -24px;
+}
+.banner-part .mywidth .tele{
+    height:140px ;
+    width: 320px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 160px auto auto auto;
+}
+.banner-part .mywidth .tele .width-pera{
+    font-size:14px ;
+    font-weight:700 ;
+    color: #fea100;
+    font-family: 'Sintony', sans-serif;
+    text-transform: uppercase;
+   
+}
+.banner-part .mywidth .tele i{
+    transform: rotate(-45deg);
+    color: #fea100;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.banner-part .mywidth .tele .number{
+    font-size:36px ;
+    font-weight:700 ;
+    font-family: 'Playfair Display', serif;
+    margin-top: -30px;
+}
+
+
+
+
+
+/***********************media 360***************/
+@media(max-width:360px) {
+    header{
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    header .inner-header{
+        max-width: 320px;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header .inner-header ul{
+        display: flex;
+        padding-top: 2px;
+        display: none;
+    }
+    
+    header .navbar-toggler{
+        display: inline-block;
+    }
+
+    /*****************banner***************/
+    .banner-part{
+        height: 70vw;
+        width: 100vw;
+    }
+    .banner-part .mywidth{
+        height: 80px;
+        width: 200px;
+        margin:16vh auto;
+    }
+    .banner-part .menu{
+        display: none;
+    }
+    .banner-part .mywidth h1{
+        font-size:20px ;
+        font-weight:700 ;
+    }
+    .banner-part .mywidth h3{
+        font-size:10px ;
+        margin-top: -9px;
+    }
+    .banner-part .mywidth .tele{
+        height:40px ;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 33px auto auto auto;
+    }
+    .banner-part .mywidth .tele .width-pera{
+        font-size:6px ;
+       
+    }
+    .banner-part .mywidth .tele i{
+        transform: rotate(-45deg);
+        color: #fea100;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .banner-part .mywidth .tele .number{
+        font-size: 10px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        margin-top: -20px;}
+    .banner-part header .inner-header .menu{
+        display: block;
+        font-size: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Sintony', sans-serif;
+        font-size: 8px;
+        font-weight: 700px;
+        text-transform: uppercase;
+    }
+        
+    
+}
+/******************************media 375*************/
+@media(max-width:375px) {
+    header{
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    header .inner-header{
+        max-width: 320px;
+        height: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header .inner-header ul{
+        display: flex;
+        padding-top: 2px;
+        display: none;
+    }
+    
+    header .navbar-toggler{
+        display: inline-block;
+    }
+
+    /*****************banner***************/
+    .banner-part{
+        height: 70vw;
+        width: 100vw;
+    }
+    .banner-part .mywidth{
+        height: 80px;
+        width: 200px;
+        margin:18vh auto;
+    }
+    .banner-part .menu{
+        display: none;
+    }
+    .banner-part .mywidth h1{
+        font-size:20px ;
+        font-weight:700 ;
+    }
+    .banner-part .mywidth h3{
+        font-size:10px ;
+        margin-top: -10px;
+    }
+    .banner-part .mywidth .tele{
+        height:40px ;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 33px auto auto auto;
+    }
+    .banner-part .mywidth .tele .width-pera{
+        font-size:6px ;
+       
+    }
+    .banner-part .mywidth .tele i{
+        transform: rotate(-45deg);
+        color: #fea100;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .banner-part .mywidth .tele .number{
+        font-size: 10px;
+        font-weight: 700;
+        font-family: 'Playfair Display', serif;
+        margin-top: -20px;}
+    .banner-part header .inner-header .menu{
+        display: block;
+        font-size: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Sintony', sans-serif;
+        font-size: 8px;
+        font-weight: 700px;
+        text-transform: uppercase;
+    }
+        
+    
+}
+/******************************media 425*************/
+@media(max-width:425px) {
+
+    .banner-part .mywidth{
+        height: 80px;
+        width: 200px;
+        margin:21vh auto;
+    }
+    .banner-part .mywidth h1{
+        font-size:22px ;
+        font-weight:700 ;
+    }
+    .banner-part .mywidth h3{
+        font-size:12px ;
+        margin-top: -8px;
+    }
+    .banner-part .mywidth .tele{
+        height:40px ;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 42px auto auto auto;
+    }
+    
+}
+
+@media(max-width:480px) {
+    header{
+        width: 100vw;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    header .inner-header{
+        max-width: 390px;
+        height: 15px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 10px auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+
+    /*****************banner***************/
+    .banner-part .mywidth{
+        height: 90px;
+        width: 210px;
+        margin: 25vh auto;
+    }
+    
+    .banner-part .mywidth .tele{
+        height:40px ;
+        width: 150px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 45px auto auto auto;
+    }
+        
+    
+}
+@media(max-width:600px) {
+    header .inner-header{
+        max-width: 460px;
+    }
+    
+
+    /*****************banner***************/
+    .banner-part .mywidth {
+        height: 110px;
+        width: 240px;
+        margin: 32vh auto;
+    }
+    .banner-part .mywidth h1 {
+        font-size: 27px;
+    }
+    .banner-part .mywidth h3 {
+        font-size: 15px;
+    }
+    
+    .banner-part .mywidth .tele{
+        height: 60px;
+        width: 170px;
+        margin: 55px auto auto auto;
+    }
+    .banner-part .mywidth .tele .width-pera {
+        font-size: 7px;}
+        
+    
+}
